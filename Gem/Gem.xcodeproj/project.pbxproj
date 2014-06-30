@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33B40D4A18FA1F5000936260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B40D4918FA1F5000936260 /* Foundation.framework */; };
+		33B40D4C18FA1F5000936260 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B40D4B18FA1F5000936260 /* CoreGraphics.framework */; };
+		33B40D4E18FA1F5000936260 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B40D4D18FA1F5000936260 /* UIKit.framework */; };
+		33B40D5418FA1F5000936260 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B40D5218FA1F5000936260 /* InfoPlist.strings */; };
+		33B40D5618FA1F5000936260 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B40D5518FA1F5000936260 /* main.m */; };
+		33B40D5A18FA1F5000936260 /* RFHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B40D5918FA1F5000936260 /* RFHAppDelegate.m */; };
+		33B40D5D18FA1F5000936260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B40D5B18FA1F5000936260 /* Main.storyboard */; };
+		33B40D6218FA1F5000936260 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B40D6118FA1F5000936260 /* Images.xcassets */; };
+		33B40D6918FA1F5000936260 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B40D6818FA1F5000936260 /* XCTest.framework */; };
+		33B40D6A18FA1F5000936260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B40D4918FA1F5000936260 /* Foundation.framework */; };
+		33B40D6B18FA1F5000936260 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B40D4D18FA1F5000936260 /* UIKit.framework */; };
+		33B40D7318FA1F5000936260 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B40D7118FA1F5000936260 /* InfoPlist.strings */; };
+		33B40D7518FA1F5000936260 /* GemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B40D7418FA1F5000936260 /* GemTests.m */; };
+		33B40D7F18FA231700936260 /* Chipped_Ruby.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B40D7E18FA231700936260 /* Chipped_Ruby.png */; };
+		33B40D8818FA245F00936260 /* RFHGemObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B40D8118FA245F00936260 /* RFHGemObject.m */; };
+		33B40D8918FA245F00936260 /* RFHHumanPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B40D8318FA245F00936260 /* RFHHumanPlayer.m */; };
+		33B40D8A18FA245F00936260 /* RFHPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B40D8518FA245F00936260 /* RFHPlayer.m */; };
+		33B40D8B18FA245F00936260 /* RFHRobotPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B40D8718FA245F00936260 /* RFHRobotPlayer.m */; };
+		33B40D8E18FA449500936260 /* RFHGemHolderCollectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B40D8D18FA449500936260 /* RFHGemHolderCollectionFooterView.m */; };
+		33B40D9218FA551500936260 /* RFHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B40D9018FA551500936260 /* RFHViewController.m */; };
+		33B40D9318FA551500936260 /* RFHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B40D9118FA551500936260 /* RFHViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33B40D6C18FA1F5000936260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33B40D3E18FA1F5000936260 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B40D4518FA1F5000936260;
+			remoteInfo = Gem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33B40D4618FA1F5000936260 /* Gem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B40D4918FA1F5000936260 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33B40D4B18FA1F5000936260 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33B40D4D18FA1F5000936260 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33B40D5118FA1F5000936260 /* Gem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gem-Info.plist"; sourceTree = "<group>"; };
+		33B40D5318FA1F5000936260 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33B40D5518FA1F5000936260 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33B40D5718FA1F5000936260 /* Gem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gem-Prefix.pch"; sourceTree = "<group>"; };
+		33B40D5818FA1F5000936260 /* RFHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFHAppDelegate.h; sourceTree = "<group>"; };
+		33B40D5918FA1F5000936260 /* RFHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFHAppDelegate.m; sourceTree = "<group>"; };
+		33B40D5C18FA1F5000936260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33B40D6118FA1F5000936260 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33B40D6718FA1F5000936260 /* GemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B40D6818FA1F5000936260 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33B40D7018FA1F5000936260 /* GemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GemTests-Info.plist"; sourceTree = "<group>"; };
+		33B40D7218FA1F5000936260 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33B40D7418FA1F5000936260 /* GemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemTests.m; sourceTree = "<group>"; };
+		33B40D7E18FA231700936260 /* Chipped_Ruby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chipped_Ruby.png; sourceTree = "<group>"; };
+		33B40D8018FA245F00936260 /* RFHGemObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFHGemObject.h; sourceTree = "<group>"; };
+		33B40D8118FA245F00936260 /* RFHGemObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFHGemObject.m; sourceTree = "<group>"; };
+		33B40D8218FA245F00936260 /* RFHHumanPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFHHumanPlayer.h; sourceTree = "<group>"; };
+		33B40D8318FA245F00936260 /* RFHHumanPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFHHumanPlayer.m; sourceTree = "<group>"; };
+		33B40D8418FA245F00936260 /* RFHPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFHPlayer.h; sourceTree = "<group>"; };
+		33B40D8518FA245F00936260 /* RFHPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFHPlayer.m; sourceTree = "<group>"; };
+		33B40D8618FA245F00936260 /* RFHRobotPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFHRobotPlayer.h; sourceTree = "<group>"; };
+		33B40D8718FA245F00936260 /* RFHRobotPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFHRobotPlayer.m; sourceTree = "<group>"; };
+		33B40D8C18FA449500936260 /* RFHGemHolderCollectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFHGemHolderCollectionFooterView.h; sourceTree = "<group>"; };
+		33B40D8D18FA449500936260 /* RFHGemHolderCollectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFHGemHolderCollectionFooterView.m; sourceTree = "<group>"; };
+		33B40D8F18FA551500936260 /* RFHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFHViewController.h; sourceTree = "<group>"; };
+		33B40D9018FA551500936260 /* RFHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFHViewController.m; sourceTree = "<group>"; };
+		33B40D9118FA551500936260 /* RFHViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RFHViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33B40D4318FA1F5000936260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B40D4C18FA1F5000936260 /* CoreGraphics.framework in Frameworks */,
+				33B40D4E18FA1F5000936260 /* UIKit.framework in Frameworks */,
+				33B40D4A18FA1F5000936260 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B40D6418FA1F5000936260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B40D6918FA1F5000936260 /* XCTest.framework in Frameworks */,
+				33B40D6B18FA1F5000936260 /* UIKit.framework in Frameworks */,
+				33B40D6A18FA1F5000936260 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33B40D3D18FA1F5000936260 = {
+			isa = PBXGroup;
+			children = (
+				33B40D4F18FA1F5000936260 /* Gem */,
+				33B40D6E18FA1F5000936260 /* GemTests */,
+				33B40D4818FA1F5000936260 /* Frameworks */,
+				33B40D4718FA1F5000936260 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33B40D4718FA1F5000936260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33B40D4618FA1F5000936260 /* Gem.app */,
+				33B40D6718FA1F5000936260 /* GemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33B40D4818FA1F5000936260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33B40D4918FA1F5000936260 /* Foundation.framework */,
+				33B40D4B18FA1F5000936260 /* CoreGraphics.framework */,
+				33B40D4D18FA1F5000936260 /* UIKit.framework */,
+				33B40D6818FA1F5000936260 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33B40D4F18FA1F5000936260 /* Gem */ = {
+			isa = PBXGroup;
+			children = (
+				33B40D5818FA1F5000936260 /* RFHAppDelegate.h */,
+				33B40D5918FA1F5000936260 /* RFHAppDelegate.m */,
+				33B40D5B18FA1F5000936260 /* Main.storyboard */,
+				33B40D8F18FA551500936260 /* RFHViewController.h */,
+				33B40D9018FA551500936260 /* RFHViewController.m */,
+				33B40D9118FA551500936260 /* RFHViewController.xib */,
+				33B40D8C18FA449500936260 /* RFHGemHolderCollectionFooterView.h */,
+				33B40D8D18FA449500936260 /* RFHGemHolderCollectionFooterView.m */,
+				33B40D8018FA245F00936260 /* RFHGemObject.h */,
+				33B40D8118FA245F00936260 /* RFHGemObject.m */,
+				33B40D8218FA245F00936260 /* RFHHumanPlayer.h */,
+				33B40D8318FA245F00936260 /* RFHHumanPlayer.m */,
+				33B40D8418FA245F00936260 /* RFHPlayer.h */,
+				33B40D8518FA245F00936260 /* RFHPlayer.m */,
+				33B40D8618FA245F00936260 /* RFHRobotPlayer.h */,
+				33B40D8718FA245F00936260 /* RFHRobotPlayer.m */,
+				33B40D6118FA1F5000936260 /* Images.xcassets */,
+				33B40D7E18FA231700936260 /* Chipped_Ruby.png */,
+				33B40D5018FA1F5000936260 /* Supporting Files */,
+			);
+			path = Gem;
+			sourceTree = "<group>";
+		};
+		33B40D5018FA1F5000936260 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33B40D5118FA1F5000936260 /* Gem-Info.plist */,
+				33B40D5218FA1F5000936260 /* InfoPlist.strings */,
+				33B40D5518FA1F5000936260 /* main.m */,
+				33B40D5718FA1F5000936260 /* Gem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33B40D6E18FA1F5000936260 /* GemTests */ = {
+			isa = PBXGroup;
+			children = (
+				33B40D7418FA1F5000936260 /* GemTests.m */,
+				33B40D6F18FA1F5000936260 /* Supporting Files */,
+			);
+			path = GemTests;
+			sourceTree = "<group>";
+		};
+		33B40D6F18FA1F5000936260 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33B40D7018FA1F5000936260 /* GemTests-Info.plist */,
+				33B40D7118FA1F5000936260 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33B40D4518FA1F5000936260 /* Gem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B40D7818FA1F5000936260 /* Build configuration list for PBXNativeTarget "Gem" */;
+			buildPhases = (
+				33B40D4218FA1F5000936260 /* Sources */,
+				33B40D4318FA1F5000936260 /* Frameworks */,
+				33B40D4418FA1F5000936260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gem;
+			productName = Gem;
+			productReference = 33B40D4618FA1F5000936260 /* Gem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33B40D6618FA1F5000936260 /* GemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B40D7B18FA1F5000936260 /* Build configuration list for PBXNativeTarget "GemTests" */;
+			buildPhases = (
+				33B40D6318FA1F5000936260 /* Sources */,
+				33B40D6418FA1F5000936260 /* Frameworks */,
+				33B40D6518FA1F5000936260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B40D6D18FA1F5000936260 /* PBXTargetDependency */,
+			);
+			name = GemTests;
+			productName = GemTests;
+			productReference = 33B40D6718FA1F5000936260 /* GemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33B40D3E18FA1F5000936260 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RFH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Higgnet;
+				TargetAttributes = {
+					33B40D6618FA1F5000936260 = {
+						TestTargetID = 33B40D4518FA1F5000936260;
+					};
+				};
+			};
+			buildConfigurationList = 33B40D4118FA1F5000936260 /* Build configuration list for PBXProject "Gem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33B40D3D18FA1F5000936260;
+			productRefGroup = 33B40D4718FA1F5000936260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33B40D4518FA1F5000936260 /* Gem */,
+				33B40D6618FA1F5000936260 /* GemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33B40D4418FA1F5000936260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B40D9318FA551500936260 /* RFHViewController.xib in Resources */,
+				33B40D6218FA1F5000936260 /* Images.xcassets in Resources */,
+				33B40D7F18FA231700936260 /* Chipped_Ruby.png in Resources */,
+				33B40D5418FA1F5000936260 /* InfoPlist.strings in Resources */,
+				33B40D5D18FA1F5000936260 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B40D6518FA1F5000936260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B40D7318FA1F5000936260 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33B40D4218FA1F5000936260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B40D8918FA245F00936260 /* RFHHumanPlayer.m in Sources */,
+				33B40D5618FA1F5000936260 /* main.m in Sources */,
+				33B40D8E18FA449500936260 /* RFHGemHolderCollectionFooterView.m in Sources */,
+				33B40D8B18FA245F00936260 /* RFHRobotPlayer.m in Sources */,
+				33B40D8818FA245F00936260 /* RFHGemObject.m in Sources */,
+				33B40D9218FA551500936260 /* RFHViewController.m in Sources */,
+				33B40D8A18FA245F00936260 /* RFHPlayer.m in Sources */,
+				33B40D5A18FA1F5000936260 /* RFHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B40D6318FA1F5000936260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B40D7518FA1F5000936260 /* GemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33B40D6D18FA1F5000936260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B40D4518FA1F5000936260 /* Gem */;
+			targetProxy = 33B40D6C18FA1F5000936260 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33B40D5218FA1F5000936260 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B40D5318FA1F5000936260 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33B40D5B18FA1F5000936260 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B40D5C18FA1F5000936260 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33B40D7118FA1F5000936260 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B40D7218FA1F5000936260 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33B40D7618FA1F5000936260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33B40D7718FA1F5000936260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33B40D7918FA1F5000936260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gem/Gem-Prefix.pch";
+				INFOPLIST_FILE = "Gem/Gem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33B40D7A18FA1F5000936260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gem/Gem-Prefix.pch";
+				INFOPLIST_FILE = "Gem/Gem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33B40D7C18FA1F5000936260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gem.app/Gem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gem/Gem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GemTests/GemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33B40D7D18FA1F5000936260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gem.app/Gem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gem/Gem-Prefix.pch";
+				INFOPLIST_FILE = "GemTests/GemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33B40D4118FA1F5000936260 /* Build configuration list for PBXProject "Gem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B40D7618FA1F5000936260 /* Debug */,
+				33B40D7718FA1F5000936260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B40D7818FA1F5000936260 /* Build configuration list for PBXNativeTarget "Gem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B40D7918FA1F5000936260 /* Debug */,
+				33B40D7A18FA1F5000936260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33B40D7B18FA1F5000936260 /* Build configuration list for PBXNativeTarget "GemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B40D7C18FA1F5000936260 /* Debug */,
+				33B40D7D18FA1F5000936260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33B40D3E18FA1F5000936260 /* Project object */;
+}
